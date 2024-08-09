@@ -32,13 +32,6 @@
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
 }
-
-input {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    width: 98%;
-    height: 95%; }
-
 .grid-item {
     width: 115px;
     height: 80px;
@@ -86,4 +79,20 @@ background-color:#04e03b ;
 
 .center1 {
     margin-left: 10px;
+}
+
+#display {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 98%;
+    height: 95%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#display p{
+    margin-right: 20px;
+    font-size: 32px;
+    font-weight: 900;
 }
