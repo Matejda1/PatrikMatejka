@@ -56,11 +56,6 @@
 .black {
     color: black;
 }
-
-.bold {
-    font-weight: bold;
-}
-
 .headingframe {
     background-color: #03dffc;
     height: 60px;
@@ -91,9 +86,11 @@
 .left10 {
     margin-left: 10px;
 }
+
 .left15 {
     margin-left: 15px;
 }
+
 #display {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -125,11 +122,6 @@
 .mediumheading {
     font-size: larger;
 }
-
-.left15 {
-    margin-left: 15px;
-}
-
 .omneframe {
     background-color: #000080;
     border: 6px solid gray;
