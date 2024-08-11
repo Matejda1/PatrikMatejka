@@ -32,7 +32,7 @@
     height: 400px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7px;
+    margin-top: 20px;
 
     display: grid;
     align-items: center;
@@ -56,6 +56,7 @@
 .black {
     color: black;
 }
+
 .headingframe {
     background-color: #03dffc;
     height: 60px;
@@ -119,9 +120,21 @@
     border-radius: 30px;
 }
 
+.smalerbackcolorgrey {
+    background-color: #242523;
+    border: 15px solid #03dffc;
+    width: 500px;
+    height: 500px;
+    margin-top: 4.5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
 .mediumheading {
     font-size: larger;
 }
+
 .omneframe {
     background-color: #000080;
     border: 6px solid gray;
@@ -132,9 +145,8 @@
 }
 
 .center1 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .omneframetext {
@@ -144,4 +156,25 @@
     height: 500px;
     margin-top: 7px;
     border-radius: 40px;
+}
+
+.socialmedia {
+    display: flex
+}
+
+.instagram {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.gmaillogo {
+    height: 184px;
+    width: 184px;
+}
+
+.gmail {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 250px;
 }

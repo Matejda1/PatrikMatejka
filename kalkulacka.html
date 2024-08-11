@@ -4,35 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kalkulačka</title>
+    <link rel="icon" type="image/x-icon" href="Kalkulacka-Favicon.png">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
     <p class="center heading bolder bigsize top9">Vítej na mé kalkulačce</p>
-    <div class="calskeleton">
-        <div type="number"id="display">
-            <p id="realnejDisplej"></p>
+    <div class="smalerbackcolorgrey">
+        <div class="calskeleton">
+            <div type="number" id="display">
+                <p id="realnejDisplej"></p>
+            </div>
+            <button type="button" onclick="clearDisplay()" class="grid-item operator-btn" class="grid-item">C</button>
+            <button type="button" onclick="appendToDisplay('1')" class="grid-item" id="jedna">1</button>
+            <button type="button" onclick="appendToDisplay('2')" class="grid-item" id="dva">2</button>
+            <button type="button" onclick="appendToDisplay('3')" class="grid-item" id="tri">3</button>
+            <button type="button" onclick="appendToDisplay('/')" class="grid-item" id="lomitko">/</button>
+            <button type="button" onclick="appendToDisplay('4')" class="grid-item" id="ctyri">4</button>
+            <button type="button" onclick="appendToDisplay('5')" class="grid-item" id="pet">5</button>
+            <button type="button" onclick="appendToDisplay('6')" class="grid-item" id="sest">6</button>
+            <button type="button" onclick="appendToDisplay('*')" class="grid-item" id="hvezdicka">*</button>
+            <button type="button" onclick="appendToDisplay('7')" class="grid-item" id="sedmum">7</button>
+            <button type="button" onclick="appendToDisplay('8')" class="grid-item" id="osm">8</button>
+            <button type="button" onclick="appendToDisplay('9')" class="grid-item" id="devet">9</button>
+            <button type="button" onclick="appendToDisplay('-')" class="grid-item" id="minus">-</button>
+            <button type="button" onclick="appendToDisplay('0')" class="grid-item" id="nula">0</button>
+            <button type="button" onclick="appendToDisplay('.')" class="grid-item" id="tecka">.</button>
+            <button type="button" onclick="calculate();" class="grid-item" id="rovnase">=</button>
+            <button type="button" onclick="appendToDisplay('+')" class="grid-item" id="plus">+</button>
         </div>
-        <button type="button" onclick="clearDisplay()" class="grid-item operator-btn" class="grid-item">C</button>
-        <button type="button" onclick="appendToDisplay('1')" class="grid-item" id="jedna">1</button>
-        <button type="button" onclick="appendToDisplay('2')" class="grid-item" id="dva">2</button>
-        <button type="button" onclick="appendToDisplay('3')" class="grid-item" id="tri">3</button>
-        <button type="button" onclick="appendToDisplay('/')" class="grid-item" id="lomitko">/</button>
-        <button type="button" onclick="appendToDisplay('4')" class="grid-item" id="ctyri">4</button>
-        <button type="button" onclick="appendToDisplay('5')" class="grid-item" id="pet">5</button>
-        <button type="button" onclick="appendToDisplay('6')" class="grid-item" id="sest">6</button>
-        <button type="button" onclick="appendToDisplay('*')" class="grid-item" id="hvezdicka">*</button>
-        <button type="button" onclick="appendToDisplay('7')" class="grid-item" id="sedmum">7</button>
-        <button type="button" onclick="appendToDisplay('8')" class="grid-item" id="osm">8</button>
-        <button type="button" onclick="appendToDisplay('9')" class="grid-item" id="devet">9</button>
-        <button type="button" onclick="appendToDisplay('-')" class="grid-item" id="minus">-</button>
-        <button type="button" onclick="appendToDisplay('0')" class="grid-item" id="nula">0</button>
-        <button type="button" onclick="appendToDisplay('.')" class="grid-item" id="tecka">.</button>
-        <button type="button" onclick="calculate();" class="grid-item" id="rovnase">=</button>
-        <button type="button" onclick="appendToDisplay('+')" class="grid-item" id="plus">+</button>
     </div>
 
 
