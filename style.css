@@ -21,6 +21,10 @@
 .center {
     text-align: center;
 }
+.center1 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 .top9 {
     margin-top: 9px;
@@ -78,6 +82,9 @@
     margin-right: auto;
     align-items: center;
     margin-top: 10px;
+}
+.centerlinkframe {
+    margin-left: 50%;
 }
 
 .white {
@@ -143,12 +150,6 @@
     margin-top: 10px;
     border-radius: 20px;
 }
-
-.center1 {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 .omneframetext {
     background-color: #e31e1e;
     border: 10px solid black;
@@ -174,6 +175,15 @@
 }
 
 .gmail {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.discordlogo {
+    height: 184px;
+    width: 184px;
+}
+.discord {
     font-size: 25px;
     margin-top: 50px;
     margin-left: 250px;
