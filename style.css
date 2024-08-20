@@ -21,6 +21,7 @@
 .center {
     text-align: center;
 }
+
 .center1 {
     margin-top: auto;
     margin-bottom: auto;
@@ -83,8 +84,10 @@
     align-items: center;
     margin-top: 10px;
 }
+
 .centerlinkframe {
-    margin-left: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .white {
@@ -150,6 +153,7 @@
     margin-top: 10px;
     border-radius: 20px;
 }
+
 .omneframetext {
     background-color: #e31e1e;
     border: 10px solid black;
@@ -159,6 +163,7 @@
     border-radius: 40px;
 }
 
+/*Kontakty*/
 .socialmedia {
     display: flex
 }
@@ -179,12 +184,28 @@
     margin-top: 50px;
     margin-left: 250px;
 }
+
 .discordlogo {
     height: 184px;
     width: 184px;
 }
+
 .discord {
     font-size: 25px;
     margin-top: 50px;
     margin-left: 250px;
+}
+
+/*Portfolio*/
+.project {
+    display: flex;
+}
+.osazeniprojekty {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.velikostprojektu {
+    height: 350px;
+    width: 350px;
 }
