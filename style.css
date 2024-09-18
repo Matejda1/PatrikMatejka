@@ -30,6 +30,9 @@
 .top9 {
     margin-top: 9px;
 }
+.black {
+    text-decoration: black;
+}
 
 .calskeleton {
     background-color: #08F5CA;
@@ -200,15 +203,18 @@
 .project {
     display: flex;
 }
+
 .osazeniprojekty {
     font-size: 25px;
     margin-top: 50px;
     margin-left: 80px;
 }
+
 .velikostprojektu {
     height: 350px;
     width: 350px;
 }
+
 /*Jazyk*/
 .languageframe {
     background-color: #242523;
@@ -217,17 +223,39 @@
     margin-top: 30px;
     margin-left: 250px;
 }
+
 .flags {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .sizebritishflag {
     width: 290px;
     height: 174px;
 }
-.flagtext {
-   margin: auto;
+
+.flagstextbuton {
+    background-color: white;
+    height: 25px;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.miniflag {
+    width: 50px;
+}
+.mainpageflag {
+    margin-left: 640px;
+    margin-right: 10px;
+}
+.anotherpageflag {
+    margin-right: 10px;
 }
 .displayflex {
     display: flex;
