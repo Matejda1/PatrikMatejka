@@ -209,3 +209,26 @@
     height: 350px;
     width: 350px;
 }
+/*Jazyk*/
+.languageframe {
+    background-color: #242523;
+    height: 350px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.flags {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sizebritishflag {
+    width: 290px;
+    height: 174px;
+}
+.flagtext {
+   margin: auto;
+}
+.displayflex {
+    display: flex;
+}
