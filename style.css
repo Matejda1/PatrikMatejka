@@ -30,6 +30,7 @@
 .top9 {
     margin-top: 9px;
 }
+
 .black {
     text-decoration: black;
 }
@@ -247,16 +248,31 @@
     border-style: solid;
     border-color: black;
 }
+
 .miniflag {
     width: 50px;
 }
+
 .mainpageflag {
     margin-left: 640px;
     margin-right: 10px;
 }
+
 .anotherpageflag {
     margin-right: 10px;
 }
+
 .displayflex {
     display: flex;
+}
+
+/*Kalkulacka*/
+.shadow {
+    box-shadow: 10px 10px 10px black;
+}
+
+.explanations {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
 }
