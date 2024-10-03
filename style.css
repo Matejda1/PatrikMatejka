@@ -264,8 +264,14 @@
 
 .displayflex {
     display: flex;
+    justify-content:center ;
 }
-
+.hoverCz:hover {
+    background-color:red ;
+}
+.hoverEn:hover {
+    background-color: navy;
+}
 /*Kalkulacka*/
 .shadow {
     box-shadow: 10px 10px 10px black;
